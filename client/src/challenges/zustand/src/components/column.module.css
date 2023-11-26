@@ -1,0 +1,35 @@
+.column {
+  --COLOR-GRAY-DARK: #1c1c1cf2;
+  background: var(--COLOR-GRAY-DARK);
+  min-height: 20rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 32%;
+  margin: 1rem 0.5rem;
+  padding: 10px 4px;
+  max-width: 20rem;
+}
+
+.title_wrapper {
+  width: 100%;
+  padding: 4px  0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button {
+  all: unset;
+  padding: .3rem;
+  /* width: 30px; */
+  height: fit-content;
+  color: black;
+  background-color: #fff;
+}
+.button:hover{
+    background-color: grey;
+    color: #fff;
+    cursor: pointer;
+}

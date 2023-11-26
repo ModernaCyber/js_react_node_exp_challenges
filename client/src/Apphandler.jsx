@@ -6,6 +6,7 @@ import Home from './components/Home/Home.jsx';
 import Timer from './challenges/timer/App.jsx';
 import Layout from './Layout.jsx';
 import Todos from './challenges/todo/todos.jsx';
+import Zustand from './challenges/zustand/app.jsx';
 
 
 const AppHandler = () => {
@@ -24,6 +25,9 @@ const AppHandler = () => {
         }, {
             name: 'Todos',
             value: <Todos />,
+        }, {
+            name: 'Zustand',
+            value: <Zustand />,
         }
     ]
 

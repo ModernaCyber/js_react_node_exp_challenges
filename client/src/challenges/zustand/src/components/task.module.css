@@ -1,0 +1,36 @@
+.task{
+    background: white;
+    border-radius: 4px;
+    min-height: 5rem;
+    width: 100%;
+    margin: .4rem auto;
+    color: black;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottom_wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.status{
+    font-size: small;
+    padding: .25rem;
+    border-radius: 4px;
+}
+.planned{
+    background:#808080;
+    color: #ffffff;
+
+}
+.ongoing {
+    background:blue;
+    color:white;
+}
+.done {
+    background:green;
+    color: white;
+}
