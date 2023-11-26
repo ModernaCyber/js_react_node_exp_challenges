@@ -1,0 +1,6 @@
+.home{
+    width: 100%;
+    max-width: calc(100%-40px);
+    height: auto;
+    display: flex;
+}

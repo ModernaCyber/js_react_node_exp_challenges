@@ -1,0 +1,42 @@
+.counter {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.valuebox {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.value {
+  margin: auto;
+}
+.buttons {
+  gap: 1rem;
+}
+.button {
+  padding: 10px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  margin: 10px;
+}
+.reset {
+  background-color: green;
+  color: #ffffff;
+}
+.increment {
+  background-color: #0051ff;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+.decrement {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 10px 20px;
+}
