@@ -43,7 +43,7 @@
 }
 
 .container{
-    width: 100%;
+    width: auto;
     height: auto;
     min-height: calc(100%-40px);
     display: flex;

@@ -1,6 +1,15 @@
 .home{
     width: 100%;
-    max-width: calc(100%-40px);
     height: auto;
     display: flex;
+    background: #ffffff;
+    color: #000000;
+}
+.hero {
+    width: 100%;
+    height: calc(50vh - 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

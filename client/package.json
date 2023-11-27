@@ -7,9 +7,21 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "react-scripts test"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.0.1",
+    "react-bootstrap": "^1.6.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.1",
+    "jest-fetch-mock": "^3.0.3",
     "@reduxjs/toolkit": "^1.9.7",
     "classnames": "^2.3.2",
     "lodash": "^4.17.21",
