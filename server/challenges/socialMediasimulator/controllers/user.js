@@ -18,9 +18,9 @@ const handleSignUpController = async( req, res) => {
 
         const active = true;
 
-        console.log(username, password,joiningDate, active)
+        // console.log(username, fullname,password,joiningDate, active)
 
-        const newUser = new User(username, password,joiningDate, active);
+        const newUser = new User(username,fullname, password,joiningDate, active);
        
         writeLine(filePath,JSON.stringify( newUser.getUser()))
 

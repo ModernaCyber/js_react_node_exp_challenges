@@ -9,6 +9,7 @@ class User {
         this.active = active;
     }
     getUser(){
+        // return {username: this.username, fullname: this.fullname, password: this.password, joiningDate: this.joiningDate, active: this.active}
         return this
     }
     

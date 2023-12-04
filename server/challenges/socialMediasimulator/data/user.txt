@@ -1,1 +1,3 @@
-{"id":"4575fdea-6647-43a6-ad05-43b132584b4b","username":"john doe","fullname":"password","password":"2023-12-04T15:32:28.091Z","joiningDate":true}
+
+{"id":"4db9a194-6148-439a-96b1-97fab0251995","username":"john doe","fullname":"john full name","password":"password","joiningDate":"2023-12-04T15:37:05.241Z","active":true}
+{"id":"d6508d49-092a-434b-bedd-3fe8162d3c7d","username":"john doe two","fullname":"john full name","password":"password","joiningDate":"2023-12-04T15:38:07.378Z","active":true}
