@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./FollowersList.css"
 import axios from "axios"
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default function FollowersList() {
 
@@ -35,7 +35,8 @@ export default function FollowersList() {
                 ))}
             </div>
             <div className="todo-footer">
-                <Link to="/">Go Back</Link>
+            {/* <Link to="/">Go Back</Link> */}
+            <a href="/">Go Back</a>
             </div>
         </div>
     )

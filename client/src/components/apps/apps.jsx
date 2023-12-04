@@ -5,6 +5,7 @@ import Todos from '../../challenges/todo/todos.jsx';
 import Zustand from '../../challenges/zustand/app.jsx';
 import Footer from '../../challenges/footer/app.jsx';
 import Navbar from '../../challenges/navbar/app.jsx';
+import AppTest from '../../challenges/tests/react-test-library-jest/src/App.jsx';
 
 export const all_apps = [
     {
@@ -23,6 +24,9 @@ export const all_apps = [
     }, {
         name: 'Zustand',
         value: <Zustand />,
+    }, {
+        name: 'TestApp',
+        value: <AppTest />,
     }, {
         name: 'Navbar',
         value: <Navbar />,

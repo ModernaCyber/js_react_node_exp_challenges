@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './todos.module.css';
 import Todo from './todo';
+import { v4 } from "uuid"
 
 const sampleTodos = [{
     id: 1,
@@ -31,7 +32,7 @@ const Todos = () => {
 
         if(title.length !== 0 ) {
             console.log(title);
-            setTodos([...todos, { id: 34, title, status: 'active' }]);
+            setTodos([...todos, { id: v4(), title, status: 'active' }]);
             setTitle('')
         }else{
             console.log(title);

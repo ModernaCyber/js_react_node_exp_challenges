@@ -74,25 +74,34 @@
     margin: 1rem auto;
     justify-content: space-between;
     align-items: center;
+    gap: .4rem;
 }
 .input{
     width: 80%;
     height: 30px;
     padding:10px;
     border:1px solid #000000;
+    border: none;
 
 }
-.input:active:focus{
-    border:1px solid #0015ff;
+.input:focus{
+    outline: none;
+    /* border:1px solid #0015ff; */
 }
 .button{
-    width: 16%;
+    border: none;
+    /* width: 16%;
     height: 30px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    padding: 0.3rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(53, 201, 157);
+    color: white;
+    font-weight: 900;
 }
 .todos{
     display: flex;
@@ -104,5 +113,5 @@
 .checkbox{
     height: 30px;
     aspect-ratio: 1;
-    border-radius: 10px 0 0 10px;
+
 }

@@ -1,8 +1,11 @@
-
+import store from "./app/store"
+import Provider from '@reduxjs/toolkit'
 function App() {
 
   return (
-   <div className="app"></div>
+   <Provider store={store} >
+    <div className="app"></div>
+   </Provider>
   )
 }
 

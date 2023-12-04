@@ -1,3 +1,5 @@
 .todo {
-    margin-top: -22.5vh;
+    width: 60%;
+    min-width: 400px;
+    margin:-22.5vh auto 4rem;
 }
