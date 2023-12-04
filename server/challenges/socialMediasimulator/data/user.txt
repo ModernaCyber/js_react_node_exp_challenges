@@ -1,0 +1,1 @@
+{"id":"4575fdea-6647-43a6-ad05-43b132584b4b","username":"john doe","fullname":"password","password":"2023-12-04T15:32:28.091Z","joiningDate":true}

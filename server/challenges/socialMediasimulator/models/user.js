@@ -5,7 +5,7 @@ class User {
         this.username = username;
         this.fullname = fullname;
         this.password = password;
-        this.joiningDate = joinDate;
+        this.joiningDate = joiningDate;
         this.active = active;
     }
     getUser(){
@@ -13,7 +13,7 @@ class User {
     }
     
 }
-
+module.exports = User
 // sample use case
 // const newUser = new User('john_doe', 'John Doe', 'password123', '2023-01-01', true);
 // console.log(newUser.getUser());
